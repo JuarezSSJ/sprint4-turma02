@@ -23,3 +23,64 @@
     border: none;
 }
 
+.tabelaCarros{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.veiculo-card{
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.veiculo-card img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+.veiculoInformacao{
+    display: flex;
+    align-items: flex-start;
+}
+
+.veiculoInformacao input[type="checkbox"]{
+    width: 30px;
+    height: 30px;
+    min-height: 20px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin: 2px 10px 0 0;
+    position: relative;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.veiculoInformacao img{
+    width: 20px;
+    margin-top: auto;
+    vertical-align: bottom;
+}
+
+.texto-container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.veiculoInformacao h5{
+    margin: 0;
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+    color: #1351d8;
+}
+
+.veiculoInformacao p{
+    margin: 0;
+    font-size: 11px;
+    text-align: left;
+    color: #000;
+}
