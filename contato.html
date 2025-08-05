@@ -23,8 +23,38 @@
         <div></div>
     </header>
 
-    <main>
-
+    <main class="contatoPagina">
+        <div class="contato-imagem">
+            <img src="/img/xls 2.2 diesel.jpg" alt="Veiculo Contato">
+        </div>
+        <section class="formularioContainer">
+            <form class="formulario">
+                <h3>Sobre Você</h3>
+                <div class="inputGrupo">
+                    <input type="text" placeholder="Nome completo">
+                </div>
+                <div class="inputGrupo">
+                    <input type="email" placeholder="E-mail">
+                </div>
+                <div class="inputGrupo">
+                    <input type="tel" placeholder="Telefone">
+                </div>
+                <div class="inputGrupo">
+                    <select>
+                        <option value="" disabled selected hidden>Tipo de Contato</option>
+                        <option value="elogio">Elogio</option>
+                        <option value="reclamacao">Reclamação</option>
+                        <option value="solicitacao">Solicitação</option>
+                    </select>
+                </div>
+                <div class="inputGrupo">
+                    <textarea placeholder="Digite sua mensagem" rows="2"></textarea>
+                </div>
+                <button type="submit" class="submitBotao">
+                    <span>Enviar Mensagem</span>
+                </button>
+            </form>
+        </section>
     </main>
 
     <footer>

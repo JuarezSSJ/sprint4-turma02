@@ -1,0 +1,74 @@
+.contatoPagina {
+    display: flex;
+    max-width: 900px;
+    margin: 30px auto;
+    gap: 40px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.contato-imagem{
+    flex: 1;
+    min-width: 0;
+}
+
+.contato-imagem img {
+    width: 100%;
+    height: auto;
+}
+
+.formularioContainer{
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.formulario h3{
+    color: #000;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+}
+
+.inputGrupo {
+    position: relative;
+}
+
+.inputGrupo input,
+.inputGrupo select,
+.inputGrupo textarea{
+    width: 100%;
+    padding: 7px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+.inputGrupo input:focus,
+.inputGrupo select:focus,
+.inputGrupo textarea:focus{
+    border-color: #00274C;
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 0 0 2px rgb(0, 39, 76, 0.1);
+}
+
+.inputGrupo select {
+    appearance: none;
+    -webkit-appearance: none;
+    color: #555;
+}
+
+.inputGrupo textarea {
+    resize: vertical;
+    min-height: 50px;
+}
+
