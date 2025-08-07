@@ -72,3 +72,26 @@
     min-height: 50px;
 }
 
+.submitBotao{
+    background-color: #1351d8;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitBotao:hover{
+    background-color: #00274C;
+    color: white;
+    transform: translateY(-2px);
+}
+
+
+
