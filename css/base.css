@@ -77,3 +77,39 @@ footer{
     font-size: 14px;
     text-align: center;
 }
+
+@media (max-width: 768px){
+
+    header{
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    header nav ul{
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    footer{
+        flex-direction: row;
+        gap: 15px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .redesSociais p{
+        display: none;
+    }
+
+    .redesSociais img,
+    .logo_footer img{
+        height: 25px;
+    }
+
+    .copyright p{
+        font-size: 8px;
+        line-height: 1.4;
+        max-width: 88%;
+        margin: 0 auto;
+    }
+}

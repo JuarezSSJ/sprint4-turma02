@@ -93,5 +93,17 @@
     transform: translateY(-2px);
 }
 
+@media (max-width: 768px){
 
+    .contatoPagina{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .formularioContainer{
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+}
 
